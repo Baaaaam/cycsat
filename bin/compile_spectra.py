@@ -115,6 +115,7 @@ def compile_spectra(DATA_DIR, DATASET, file=False):
     get_library(DATA_DIR, file)
     learn_lib(DATA_DIR, DATASET)
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--file', default=False,
